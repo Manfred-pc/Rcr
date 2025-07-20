@@ -1,0 +1,41 @@
+.card {
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden; /* Garante que a imagem não vaze das bordas arredondadas */
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.cardImage {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; /* Faz a imagem cobrir a área sem distorcer */
+}
+
+.cardBody {
+  padding: 16px;
+}
+
+.cardTitle {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.cardSubtitle {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: normal;
+  color: #aaa;
+}
+
+.cardBio {
+  font-size: 0.9em;
+  line-height: 1.5;
+}

@@ -1,8 +1,10 @@
+import Home from "./pages/Home/Home"
+
 function App() {
   return (
     <div>
-      <h1>RCR</h1>
-      <p>O Mega é o melhor lider do rcr</p>
+
+      <Home />
     </div>
   )
 }

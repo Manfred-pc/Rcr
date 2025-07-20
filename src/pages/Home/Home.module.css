@@ -1,0 +1,17 @@
+.container {
+  padding: 20px;
+}
+
+.mainTitle {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #ddd;
+}
+
+.characterGrid {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  justify-content: center;
+  gap: 20px; /* Espaço entre os cartões */
+}
